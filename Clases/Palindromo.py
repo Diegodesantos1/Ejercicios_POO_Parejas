@@ -1,7 +1,6 @@
 class Palindromo:
     def __init__(self,dato):
         self.dato=dato
-    dato=int("¿Qué palabra/número quieres comprobar?")
     i,j = "áéíóúñÁÉÍÓÚÑ" , "aeiounAEIOUN"
     acento=str.maketrans(i,j)
     dato=dato.translate(acento)
