@@ -61,10 +61,7 @@ class Logger:
         fichero = open("Logger.txt", "a")
         fichero.write("--Start log--")
         for  i in range(1, numero+1):
-            if i == 1:
-                fichero.write(f"\n {mensaje}")
-            else:
-                fichero.write(f" \n {str(i)} {mensaje}.")
+            fichero.write(f" \n {str(i)} {mensaje}")
         fichero.write(f"\n--End log: {str(numero)} log(s)--")
         fichero.close()
         time.sleep (10) #se borra tras 15 segundos
