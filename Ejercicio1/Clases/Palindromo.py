@@ -11,10 +11,10 @@ class Palindromo:
     listafinal= list(reversed(dato))
     def comprobar_palindromo(dato):
         if len(dato) < 1:
-            print(f"La palabra o número {dato} es un palíndromo") #Caso para una sola letra o número
+            print(f"La palabra o número es un palíndromo") #Caso para una sola letra o número
         else:
             if dato[0] == dato [-1]:
                 Palindromo.comprobar_palindromo(dato[1:-1])
             else:
-                print(f"La palabra o número {dato} no es un palíndromo")
-    Palindromo.comprobar_palindromo(dato)
+                print(f"La palabra o número no es un palíndromo")
+Palindromo.comprobar_palindromo(Palindromo.dato)
