@@ -19,6 +19,8 @@ Este es el link del [Repositorio](https://github.com/Diegodesantos1/Ejercicios_P
 
 <h2>Ejercicio 1: Palíndromo: método de clase</h2>
 
+***
+
 El código empleado para resolverlo es el siguiente:
 
 ```python
@@ -48,6 +50,8 @@ El código empleado para resolverlo es el siguiente:
 El código empleado para resolverlo es el siguiente:
 
 <h2>Ejercicio 4: Logger</h2>
+
+***
 
 El código empleado para resolverlo es el siguiente:
 
