@@ -1,6 +1,6 @@
 class Palindromo:
-    print("¿Que palabra, frase o número quieres comprobar para ver si es un palíndromo?")
-    dato=input()
+    def __init__(self,dato):
+        self.dato=dato
 
     i,j = "áéíóúñÁÉÍÓÚÑ" , "aeiounAEIOUN"
     acento=str.maketrans(i,j)

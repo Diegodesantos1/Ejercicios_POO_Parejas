@@ -1,4 +1,4 @@
-from Clases.Palindromo import *
+from Clases import Palindromo
 
 def eleccion_ejercicio():
     variable = int(input("Seleccione que ejercicio desea ejecutar(1-3): "))
