@@ -13,7 +13,8 @@ def eleccion_ejercicio():
     elif variable == 3:
         from Clases import ejercicio3
     elif variable == 4:
-        Logger.llamada(int(input("¿Cuántos mensajes quieres? \n")))
+        numero=int(input("¿Cuántos mensajes quieres? \n"))
+        Logger.llamada(numero)
     else:
         eleccion_ejercicio()
 
