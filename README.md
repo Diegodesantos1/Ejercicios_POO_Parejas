@@ -1,4 +1,4 @@
-<h1 align="center">Ejercicios de POO grupal</h1>
+<h1 align="center">Ejercicios de POO parejas</h1>
 
 *Hemos usado la POO para poder resolver estos ejercicios*
 
