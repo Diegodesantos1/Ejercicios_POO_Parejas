@@ -17,4 +17,3 @@ class Palindromo:
                 Palindromo.comprobar_palindromo(dato[1:-1])
             else:
                 print(f"La palabra o número no es un palíndromo")
-Palindromo.comprobar_palindromo(Palindromo.dato)
