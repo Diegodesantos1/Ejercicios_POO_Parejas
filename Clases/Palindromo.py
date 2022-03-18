@@ -8,9 +8,9 @@ class Palindromo:
         lista=list(dato)
         listafinal= list(reversed(dato))
         if len(dato) < 1:
-            print("La palabra o número es un palíndromo") #Caso para una sola letra o número
+            print(True) #Caso para una sola letra o número
         else:
             if dato[0] == dato [-1]:
                 Palindromo.comprobar_palindromo(dato[1:-1])
             else:
-                print("La palabra o número no es un palíndromo")
+                print(False)
