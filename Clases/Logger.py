@@ -10,5 +10,5 @@ class Logger:
             fichero.write(f" \n {str(i)} {mensaje}")
         fichero.write(f"\n--End log: {str(numero)} log(s)--")
         fichero.close()
-        time.sleep (10) #se borra tras 15 segundos
+        time.sleep (10) #se borra tras 10 segundos
         os.remove("Logger.txt")
