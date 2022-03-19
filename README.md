@@ -19,6 +19,13 @@ Este es el link del [Repositorio](https://github.com/Diegodesantos1/Ejercicios_P
 
 <h2>Ejercicio 1: Palíndromo: método de clase</h2>
 
+***
+Su UML es el siguiente:
+
+![image](https://user-images.githubusercontent.com/91721855/159012959-12847b6d-df9b-4df5-bee9-b5913c77b071.png)
+
+En formato [XML](https://github.com/Diegodesantos1/Ejercicios_POO_Parejas/blob/main/UML/Ejercicio1.drawio)
+
 El código empleado para resolverlo es el siguiente:
 
 ```python
@@ -49,6 +56,14 @@ El código empleado para resolverlo es el siguiente:
 
 <h2>Ejercicio 4: Logger</h2>
 
+***
+
+Su UML es el siguiente:
+
+![image](https://user-images.githubusercontent.com/91721855/159013115-8d23095a-1086-46f2-8550-d400eb1dfd5e.png)
+
+En formato [XML](https://github.com/Diegodesantos1/Ejercicios_POO_Parejas/blob/main/UML/Ejercicio4.drawio)
+
 El código empleado para resolverlo es el siguiente:
 
 ```python
@@ -61,10 +76,7 @@ class Logger:
         fichero = open("Logger.txt", "a")
         fichero.write("--Start log--")
         for  i in range(1, numero+1):
-            if i == 1:
-                fichero.write(f"\n {mensaje}")
-            else:
-                fichero.write(f" \n {str(i)} {mensaje}.")
+            fichero.write(f" \n {str(i)} {mensaje}")
         fichero.write(f"\n--End log: {str(numero)} log(s)--")
         fichero.close()
         time.sleep (10) #se borra tras 15 segundos
