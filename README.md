@@ -83,6 +83,7 @@ Enunciado: adivina qué mensajes se muestran mediante el siguiente código volun
 
 Su UML es el siguiente:
 
+![image](https://user-images.githubusercontent.com/91721855/159438111-2c273795-3d79-424e-bc42-b2724c0a1469.png)
 
 En formato XML
 
