@@ -25,7 +25,7 @@ Enunciado: crear una clase Palindromo que contenga un método de clase esPalindr
 
 Su UML es el siguiente:
 
-![image](https://user-images.githubusercontent.com/91721855/159012959-12847b6d-df9b-4df5-bee9-b5913c77b071.png)
+![image](https://user-images.githubusercontent.com/91721855/159435817-c9bf780f-ee80-476f-a5dc-2fa982aa4500.png)
 
 En formato [XML](https://github.com/Diegodesantos1/Ejercicios_POO_Parejas/blob/main/UML/Ejercicio1.drawio)
 
