@@ -49,6 +49,7 @@ class Palindromo:
 
 Enunciado: en esta misma clase Palindromo, añada un atributo que se inicializará en el constructor. Añada también un método test() que pruebe si el atributo de la instancia es un palíndromo. Además, al destruir la instancia, muestre el atributo en mayúsculas.
 
+
 Su UML es el siguiente:
 
 ![image](https://user-images.githubusercontent.com/91721855/159438523-67715286-7968-45af-b484-f9b1607a1b41.png)
@@ -76,6 +77,13 @@ class Palindromo:
 # print(p.test())
 ``` 
 Pregunta adicional: ¿por qué se muestra RADAR después de la instanciación Palindromo("sonar")?
+
+```python
+print("RADAR es un palindromo y SONAR no, cuando la instancia SI es un palíndromo no la destruye,
+por lo tanto que espera a la siguiente instancia para ello,
+mientras que si NO es un palindromo es probable que inmediatamente la destruya;
+al destruir, el codigo muestra el dato, eso explica por qué RADAR se muestra despues de instanciar SONAR.")
+```
 
 <h2>Ejercicio 3:</h2>
 
