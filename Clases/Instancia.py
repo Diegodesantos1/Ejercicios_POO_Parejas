@@ -1,5 +1,4 @@
 import unidecode
-
 class Palindromo:
     def __init__(self, palabra):
       self.palabra = palabra
@@ -12,5 +11,5 @@ class Palindromo:
       else:
         return False
 
-# p = Palindromo("radar") 
+# p = Palindromo("radar")
 # print(p.test())
