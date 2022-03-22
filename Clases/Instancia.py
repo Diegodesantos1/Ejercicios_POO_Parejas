@@ -10,6 +10,3 @@ class Palindromo:
         return True
       else:
         return False
-
-# p = Palindromo("radar")
-# print(p.test())

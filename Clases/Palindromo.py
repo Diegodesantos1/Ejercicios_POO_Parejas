@@ -1,10 +1,9 @@
 import unidecode
 
-class Palindromo:
-    def comprobar_palindromo(palabra):
-      palabra = unidecode.unidecode(palabra.replace(" ", ""))
-      palabra_upper = palabra.upper().split()
-      if ''.join(palabra_upper) == ''.join(palabra_upper)[::-1]:
-        return True
-      else:
-        return False
+def comprobar_palindromo(palabra):
+  palabra = unidecode.unidecode(palabra.replace(" ", ""))
+  palabra_upper = palabra.upper().split()
+  if ''.join(palabra_upper) == ''.join(palabra_upper)[::-1]:
+    return True
+  else:
+    return False
