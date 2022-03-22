@@ -51,6 +51,8 @@ Enunciado: en esta misma clase Palindromo, añada un atributo que se inicializar
 
 Su UML es el siguiente:
 
+![image](https://user-images.githubusercontent.com/91721855/159438523-67715286-7968-45af-b484-f9b1607a1b41.png)
+
 En formato XML
 
 El código empleado para resolverlo es el siguiente:
