@@ -1,4 +1,4 @@
-<h1 align="center">Ejercicios de POO parejas</h1>
+<h1 align="center">Ejercicios de POO Parejas</h1>
 
 *Hemos usado la POO para poder resolver estos ejercicios, y los contenidos teóricos del aula virtual*
 
@@ -32,22 +32,16 @@ En formato [XML](https://github.com/Diegodesantos1/Ejercicios_POO_Parejas/blob/m
 El código empleado para resolverlo es el siguiente:
 
 ```python
+import unidecode
+
 class Palindromo:
-    def comprobar_palindromo(dato):
-        i,j = "áéíóúñÁÉÍÓÚÑ" , "aeiounAEIOUN"
-        acento=str.maketrans(i,j)
-        dato=dato.translate(acento)
-        dato=dato.lower() #Se transforma todo en minúsculas
-        dato=dato.replace(" ", "") #Se quitan los espacios para que sea más sencillo
-        lista=list(dato)
-        listafinal= list(reversed(dato))
-        if len(dato) < 1:
-            print(True) #Caso para una sola letra o número
-        else:
-            if dato[0] == dato [-1]:
-                Palindromo.comprobar_palindromo(dato[1:-1])
-            else:
-                print(False)
+    def comprobar_palindromo(palabra):
+      palabra = unidecode.unidecode(palabra.replace(" ", ""))
+      palabra_upper = palabra.upper().split()
+      if ''.join(palabra_upper) == ''.join(palabra_upper)[::-1]:
+        return True
+      else:
+        return False
 ```
 <h2>Ejercicio 2:</h2>
 
@@ -62,7 +56,22 @@ En formato XML
 El código empleado para resolverlo es el siguiente:
 
 ```python
-Poner código
+import unidecode
+
+class Palindromo:
+    def __init__(self, palabra):
+      self.palabra = palabra
+    def test(self):
+      palabra = self.palabra
+      palabra = unidecode.unidecode(palabra.replace(" ", ""))
+      palabra_upper = palabra.upper().split()
+      if ''.join(palabra_upper) == ''.join(palabra_upper)[::-1]:
+        return True
+      else:
+        return False
+
+# p = Palindromo("radar") 
+# print(p.test())
 ``` 
 Pregunta adicional: ¿por qué se muestra RADAR después de la instanciación Palindromo("sonar")?
 
@@ -80,7 +89,31 @@ En formato XML
 El código empleado para resolverlo es el siguiente:
 
 ```python
-Poner código
+class A: 
+    def z(self): 
+        return self 
+ 
+    def y(self, t): 
+        return len(t) 
+ 
+a = A 
+y = a.z 
+print(y(a)) 
+aa = a() 
+print(aa is a()) 
+z = aa.y 
+print(z(())) 
+print(a().y((a,))) 
+print(A.y(aa, (a,z))) 
+print(aa.y((z,1,'z')))
+
+""" Output
+<class '__main__.A'>
+False0
+1
+2
+3
+"""
 ```
 
 <h2>Ejercicio 4: Logger</h2>
@@ -100,6 +133,7 @@ El código empleado para resolverlo es el siguiente:
 ```python
 import os
 import time
+
 class Logger:
     def llamada(numero):
         mensaje=str(input("Qué mensaje quieres escribir\n"))
@@ -110,6 +144,6 @@ class Logger:
             fichero.write(f" \n {str(i)} {mensaje}")
         fichero.write(f"\n--End log: {str(numero)} log(s)--")
         fichero.close()
-        time.sleep (10) #se borra tras 15 segundos
+        time.sleep (10) #se borra tras 10 segundos
         os.remove("Logger.txt")
 ```
