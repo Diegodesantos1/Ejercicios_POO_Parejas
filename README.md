@@ -53,7 +53,7 @@ Su UML es el siguiente:
 
 ![image](https://user-images.githubusercontent.com/91721855/159438523-67715286-7968-45af-b484-f9b1607a1b41.png)
 
-En formato XML
+En formato [XML](https://github.com/Diegodesantos1/Ejercicios_POO_Parejas/blob/main/UML/Ejercicio2.drawio)
 
 El código empleado para resolverlo es el siguiente:
 
@@ -87,7 +87,7 @@ Su UML es el siguiente:
 
 ![image](https://user-images.githubusercontent.com/91721855/159438111-2c273795-3d79-424e-bc42-b2724c0a1469.png)
 
-En formato XML
+En formato [XML](https://github.com/Diegodesantos1/Ejercicios_POO_Parejas/blob/main/UML/Ejercicio3.drawio)
 
 El código empleado para resolverlo es el siguiente:
 
