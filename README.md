@@ -79,6 +79,10 @@ En formato XML
 
 El código empleado para resolverlo es el siguiente:
 
+```python
+Poner código
+```
+
 <h2>Ejercicio 4: Logger</h2>
 
 *** 
