@@ -1,5 +1,6 @@
 import os
 import time
+
 class Logger:
     def llamada(numero):
         mensaje=str(input("Qué mensaje quieres escribir\n"))
