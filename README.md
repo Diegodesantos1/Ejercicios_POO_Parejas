@@ -1,6 +1,6 @@
 <h1 align="center">Ejercicios de POO parejas</h1>
 
-*Hemos usado la POO para poder resolver estos ejercicios, y los contenidos teóricos del aula virtual *
+*Hemos usado la POO para poder resolver estos ejercicios, y los contenidos teóricos del aula virtual*
 
 ***
 
